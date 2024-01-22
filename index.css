@@ -580,7 +580,7 @@ progress::-webkit-progress-bar {
 }
 /* --------------------- */
 .tools-main-sec {
-  
+  opacity: 0;
 }
 .tools {
   /* background-color: #e4e9e7; */
