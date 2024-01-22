@@ -392,9 +392,7 @@ progress::-webkit-progress-bar {
 /*******************************************/
 
 @media screen and (max-width: 1300px) {
-  body {
-    background-color: blue;
-  }
+
 
   .shortline {
     width: 300px;
@@ -427,7 +425,7 @@ progress::-webkit-progress-bar {
 }
 @media only screen and (max-width: 768px) {
   body {
-    background-color: #14a76c;
+   
     /* overflow-x: hidden; */
   }
   .solar-title,
