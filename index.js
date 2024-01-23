@@ -1,10 +1,10 @@
-var script = document.createElement("script");
+/*var script = document.createElement("script");
 script.src = "https://code.jquery.com/jquery-3.7.1.min.js"; // Check https://jquery.com CDN for the latest version
-document.getElementsByTagName("head")[0].appendChild(script);
+document.getElementsByTagName("head")[0].appendChild(script);*/
 
 const eachSec = document.querySelectorAll("[class*='sec-'].focus-content");
 
-$(function () {
+/*$(function () {
   $(".dropDownBtn button").mouseenter(function () {
     $("#menuImg").css("display", "none");
     $("#menuImg-hover").css("display", "block");
@@ -79,7 +79,7 @@ $(function () {
     $(".to-do-list .div-2").css("display", "block");
     $(".to-do-list .div-1").css("display", "flex");
   });
-});
+});*/
 
 // --------------------------------------------
 // this func is for clicking on one item and giving it a class
@@ -125,7 +125,7 @@ $(function () {
 //   window.addEventListener("scroll", apearing, false);
 // }
 // apearing();
-/*function fadeIn() {
+function fadeIn() {
   const myName = document.querySelector(".my-name");
   const solarSystem = document.querySelector(".solar-system-sec");
   const skils = document.querySelector(".skils");
@@ -160,7 +160,7 @@ $(function () {
   }
   window.addEventListener("scroll", fadeIn, false);
 }
-fadeIn();*/
+fadeIn();
 // ---------------------------------------------
 // function hoverAtOnce() {
 //   const sections = document.querySelectorAll("class*=sec-");
