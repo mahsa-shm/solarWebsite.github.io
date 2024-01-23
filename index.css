@@ -93,9 +93,10 @@ body {
 .solar-system-sec,
 .skils,
 .white-div,
-.myPrice {
+.myPrice,
+.tools-main-sec{
   animation-fill-mode: both;
-  opacity: 0;
+ /* opacity: 0;*/
 }
 /* ********************** */
 .dropDownBtn button {
@@ -577,9 +578,7 @@ progress::-webkit-progress-bar {
   margin-left: 200px;
 }
 /* --------------------- */
-.tools-main-sec {
-  opacity: 0;
-}
+ 
 .tools {
   /* background-color: #e4e9e7; */
   margin-right: 50px;
